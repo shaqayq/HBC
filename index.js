@@ -85,6 +85,4 @@ feedback.addEventListener("input",function(){
 })
 
 
-const student=["ali","sara","yt"]
-[0,1,2]
 
