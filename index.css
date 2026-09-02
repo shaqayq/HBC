@@ -1,0 +1,161 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    color:red;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.subtitle-style{
+    background-color:blue;
+    color:#fff;
+}
+
+
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #d35400;
+    box-shadow: 0 0 4px rgba(211, 84, 0, 0.3);
+}
+
+
+
+
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.radio-group input,
+.checkbox-group input {
+    margin-right: 8px;
+}
+
+
+
+textarea {
+    resize: vertical;
+}
+
+
+
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #d35400;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-event {
+    background-color:red;
+}
+
+button:hover {
+    background-color: #a04000;
+}   
+
+
+
+/* .faq {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+} */
+
+.answer{
+    display: none;
+}
+.show{
+    display: block;
+}
